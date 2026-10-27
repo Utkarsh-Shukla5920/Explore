@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*-----Navbar---*/
+ul{
+    list-style-type: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links a{
+    color: whitesmoke;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image1.jfif);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*------------Events-------------*/
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+
+.row .col {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.row .col img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+
+}
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+.events .ctn{
+    margin-top: 30px
+
+} 
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+}
+.explore-content h1{
+    font-size: 7vmin;
+    text-align: center;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: whitesmoke;
+}
+.explore-content .ctn{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.footer {
+    width: 100%;
+    background: #252525;
+    color: whitesmoke;
+    text-align: center;
+    padding: 35px 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.footer h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer hr {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 0;
+    border-top: 1px solid #777;
+}
+
+.footer p {
+    color: #ccc;
+    padding: 0;
+    font-size: 14px;
+}
+section {
+    margin-bottom: 0;
+}
+
+section.explore {
+    margin-bottom: 0;
+}
+
+section.footer {
+    width: 100%;
+    margin: 0;
+    padding: 35px 15px;
+    background: #252525;
+}
+
+
+
+
+/*------Modile device--------*/
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #fc036b;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 10px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+    
+    .row {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+    .row .col img {
+        height: 220px;
+    }
+
+    p {
+        padding: 0 10px;
+    }
+     
+    .explore {
+        height: auto;
+        min-height: 100vh;
+        padding: 60px 0;
+    }
+
+    .explore-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .explore-content h1 {
+        font-size: 8vmin;
+    }
+
+    .explore-content p {
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    .explore-content .ctn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .footer h1 {
+      font-size: 18px;
+    }
+
+    .footer hr {
+       width: 95%;
+     }
+
+    
+}

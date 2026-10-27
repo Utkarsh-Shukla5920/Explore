@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Hidden Nepal</title>
+    <link rel="stylesheet" href="place.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Hidden Nepal</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="place.html">Place</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="ctn"><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <img src="menu.png" alt="Open menu" class="menu-btn">
+    </nav>
+
+    <header class="about-header">
+        <div class="about-title">
+            <h2>Know More About Us</h2>
+            <div class="line"></div>
+            <h1>Our Story</h1>
+        </div>
+    </header>
+
+    <section class="about-content">
+        <div class="about-text">
+            <h2>Welcome to Hidden Nepal</h2>
+
+            <p>
+                Nepal is a beautiful country with mountains, lakes,
+                forests, temples, and many amazing places to explore.
+                Every place has its own story and culture.
+            </p>
+
+            <p>
+                Hidden Nepal is a website made to introduce people
+                to the beauty of Nepal. Our goal is to help visitors
+                discover popular destinations and learn more about
+                the country's natural beauty and traditions.
+            </p>
+
+            <p>
+                From the peaceful lakes of Pokhara to the historic
+                streets of Bhaktapur, there is always something
+                new to discover in Nepal.
+            </p>
+
+            <a href="place.html" class="explore-btn">Explore Places</a>
+        </div>
+
+        <div class="about-image">
+            <img src="image2.png" alt="Beautiful scenery of Nepal">
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Hidden Nepal | Discover the beauty of Nepal</p>
+        <h1>Thanks For Visiting My Website.</h1>
+        <hr>
+        <p>Copyright:-2026 | Made by Utkarsh</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        });
+    </script>
+
+</body>
+</html>
+```

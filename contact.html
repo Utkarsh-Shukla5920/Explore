@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Hidden Nepal</title>
+    <link rel="stylesheet" href="place.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Hidden Nepal</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="place.html">Place</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="ctn"><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <img src="menu.png" alt="Open menu" class="menu-btn">
+    </nav>
+
+    <header class="contact-header">
+        <div class="contact-title">
+            <h2>We Would Like to Hear From You</h2>
+            <div class="line"></div>
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+     <div class="boxes">
+           <div class="git">
+             <h3>Get in touch</h3>
+             <p>📧 Email:<a href="mailto:utkarshofficial394@gmail.com"> utkarshofficial394@gmail.com</a></p>
+              <p>📱 Phone: +977 9713485920</p>
+            <p>📍 Location: Nepal</p>
+            <p>💻 GitHub:<a href=" https://github.com/Utkarsh-Shukla5920"> Utkarsh-Shukla5920</a></p>
+             <p>📸 Instagram:<a href=" https://www.instagram.com/utkarsh_______48?stkn=YWg4dmdoazR3M294"> utkarsh_______48</a></p>
+             <p>📘 Facebook: <a href="https://www.facebook.com/share/1DgwHFGA4M/">Utkarsh Shukla</a></p>
+           </div>
+
+           <div class="msg">
+            <h3>Send me a message</h3>
+             <form action="https://formspree.io/f/mgaaabnv" method="POST">
+              <p>Name </p>
+             <input type="text" name="name" placeholder="Enter your Name" required>
+             <p>Email</p>
+             <input type="email" name="email" placeholder="Enter your Email" required>
+             <p>Message</p>
+             <textarea name="message" placeholder="Enter your Message " required></textarea>
+             <button class="submit">Send Message </button>
+            </form></div>
+     </div>
+    <section class="footer">
+        <p>Hidden Nepal | Discover the beauty of Nepal</p>
+        <h1>Thanks For Visiting My Website.</h1>
+        <hr>
+        <p>Copyright:-2026 | Made by Utkarsh</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Nepal</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Hidden Nepal</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="place.html">Explore</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="ctn"><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="menu.png" alt="menu" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Hidden Nepal</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#events" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+
+    <!-----------Events---------->
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image2.png">
+                <h4>Boudhanath Stupa in Kathmandu</h4>
+                <p>Boudhanath Stupa is one of the most 
+                    famous religious and historical places 
+                    in Kathmandu, Nepal. It is an important
+                    pilgrimage site for Buddhists from
+                     Nepal and around the world.</p>
+                    <a href="#explore" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="image3.png">
+                <h4>Mt.Everest (Sagarmatha)</h4>
+                <p>Mount Everest is the highest mountain
+                     in the world, standing at 8,848.86 metres
+                      above sea level. It is located in the 
+                      Himalayas, on the border between Nepal
+                       and China (Tibet). In Nepal, it is known
+                        as Sagarmatha.</p>
+                    <a href="#explore" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>Expore The Nepal</h1>
+            <div class="line"></div>
+        <p>Nepal is a beautiful country in South Asia,
+           famous for its majestic Himalayan mountains, 
+           rich culture, and natural beauty. It is home
+           to Mount Everest, the highest mountain in the
+            world. Nepal is also known for its ancient 
+           temples, peaceful monasteries, green forests, 
+           and beautiful lakes. Places like Kathmandu, 
+           Pokhara, Lumbini, and Chitwan attract visitors
+            from around the world. Nepal is the birthplace
+            of Lord Buddha and a country where people from 
+            different cultures and traditions live together
+            . From the snowy peaks of the Himalayas to the 
+            green hills and plains of the Terai, Nepal offers
+             amazing experiences for travelers. Its friendly 
+             people, delicious food, colorful festivals, and 
+             historic landmarks make it a special destination 
+             to explore.</p>
+             <a href="#events" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Hidden Nepal | Discover the beauty of Nepal</p>
+        <h1>Thanks For Visiting My Website.</h1>
+        <hr>
+        <p>Copyright:-2026 | Made by Utkarsh</p>
+    </section>
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
