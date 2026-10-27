@@ -1,5 +1,5 @@
 .about-header {
-    min-height: 45vh;
+    min-height: 50vh;
     background-image: url("image5.jfif");
     background-size: cover;
     background-position: center;
@@ -11,32 +11,31 @@
 
 .about-title {
     color: white;
-    margin-top: 60px;
     padding: 20px;
 }
 
 .about-title h1 {
-    font-size: 40px;
-    margin-top: 15px;
+    font-size: 42px;
+    margin-top: 20px;
 }
 
-.line {
+.about-title .line {
     width: 100px;
     height: 4px;
-    background: #e85d5d;
+    background: #B86F50;
     margin: 10px auto;
 }
 
 .about-content {
     width: 85%;
-    margin: 50px auto;
+    margin: 65px auto;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
 }
 
 .about-text {
-    flex: 1;
+    flex: 1.2;
 }
 
 .about-text h2 {
@@ -51,17 +50,17 @@
 }
 
 .about-image {
-    flex: 1;
+    flex: 0.8;
 }
 
 .about-image img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .explore-btn {
     display: inline-block;
-    background: #c94c4c;
+    background: #B86F50;
     color: white;
     padding: 12px 20px;
     border-radius: 5px;
@@ -78,7 +77,6 @@
     color: whitesmoke;
     text-align: center;
     padding: 35px 15px;
-    width: 100%;
     margin: 0;
 }
 
